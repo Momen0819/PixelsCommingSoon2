@@ -1,0 +1,75 @@
+body {
+    direction: rtl;
+}
+.coming-soon-image {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.coming-soon-content {
+    margin-right: auto;
+    text-align: right;
+    margin-left: 0;
+}
+.coming-soon-content .newsletter-form button {
+    left: 0;
+    right: auto;
+}
+.coming-soon-content .newsletter-form .input-newsletter {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.coming-soon-content #timer div {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.coming-soon-content #timer div:last-child {
+    margin-left: 0;
+}
+.navbar-menu .burger-menu {
+    margin-right: auto;
+    margin-left: 0;
+}
+.navbar-menu .burger-menu span:nth-child(3) {
+    margin-right: auto;
+    margin-left: 0;
+}
+.sidebar-modal .contact-area .contact-info .contact-info-content .social {
+    padding-right: 0;
+}
+.sidebar-modal.active .sidebar-modal-inner {
+    left: 0px;
+    right: auto;
+}
+.sidebar-modal .sidebar-modal-inner {
+    left: -100%;
+    right: auto;
+    text-align: right;
+}
+.navbar-menu .logo {
+    text-align: right;
+}
+.sidebar-modal .sidebar-modal-inner .close-btn {
+    left: 20px !important;
+    right: auto !important;
+}
+.coming-soon-content .newsletter-form #validator-newsletter {
+    right: 0;
+    left: auto;
+}
+
+/* RTL responsive css*/
+@media only screen and (max-width: 767px) {
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .coming-soon-content #timer div {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+/*# sourceMappingURL=responsive.css.map */
